@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    color: white;
+    background-color: rgb(53, 49, 49);
+    text-align: center;
+}
+
+a {
+    color: blue;
+    background-color: hsl(51, 82%, 28%);
+}
+
+ul {
+    background-color: hsl(51, 82%, 28%);
+    text-align: center;
+}
