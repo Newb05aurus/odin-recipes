@@ -1,12 +1,17 @@
 body {
     background-color: black;
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
     color: white;
     background-color: rgb(53, 49, 49);
     text-align: center;
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    top: 0px;
 }
 
 a {
@@ -18,3 +23,42 @@ ul {
     background-color: hsl(51, 82%, 28%);
     text-align: center;
 }
+
+.ingredients,
+.steps {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.crunchwrap-steps {
+    display: inline-block;
+    width: 600px;
+}
+
+.taco-steps {
+    display: inline-block;
+    width: 420px;
+}
+
+.crunchwrap-container,
+.taco-container,
+.quesadilla-container {
+    margin: auto;
+}
+
+.crunchwrap-container {
+    width: 900px;
+}
+
+.taco-container {
+    width: 1200px;
+    margin: auto;
+}
+
+
+.home {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
