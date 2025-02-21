@@ -24,7 +24,18 @@ ul {
 }
 
 .ingredients,
-.steps {
+.steps,
+#toppings {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.quesadilla-steps {
+    width: 200px;
+}
+
+.quesadilla-ingredients {
+    width: 400px;
     display: inline-block;
     vertical-align: top;
 }
@@ -34,7 +45,8 @@ ul {
     width: 600px;
 }
 
-.taco-steps {
+.taco-steps,
+.quesadilla-steps {
     display: inline-block;
     width: 420px;
 }
@@ -45,13 +57,18 @@ ul {
     margin: auto;
 }
 
-.crunchwrap-container {
+.crunchwrap-container,
+.quesadilla-container {
     width: 900px;
 }
 
 .taco-container {
-    width: 1200px;
+    width: 900px;
     margin: auto;
+}
+
+#toppings {
+    width: 200px;
 }
 
 
