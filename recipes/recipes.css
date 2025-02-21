@@ -21,7 +21,6 @@ a {
 
 ul {
     background-color: hsl(51, 82%, 28%);
-    text-align: center;
 }
 
 .ingredients,
@@ -62,3 +61,7 @@ ul {
     margin-top: 20px;
 }
 
+#food-picture {
+    margin: auto;
+    display: block;
+}
